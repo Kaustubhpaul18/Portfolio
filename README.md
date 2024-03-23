@@ -20,7 +20,7 @@ Name your repository (e.g., username.github.io where "username" is your GitHub u
 
 Set Up Your Website:
 
-Create an "index.html" file for your homepage and add your content using HTML tags.
+Create an "index.html" file for your homepage and add your content using HTML tags like ( div, H1, a, p, br)
 Create a style.css file for your CSS styles and link it to your HTML file using <link rel="stylesheet" href="style.css">.
 Customize Your Website:
 
