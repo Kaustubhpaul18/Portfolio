@@ -11,7 +11,7 @@ This is a documentation guide for setting up and customizing a portfolio website
 Basic knowledge of HTML, CSS
 A GitHub account
 
- Steps:
+ # Steps:
 
 Create a New Repository:
 
@@ -24,7 +24,7 @@ Create an "index.html" file for your homepage and add your content using HTML ta
 Create a style.css file for your CSS styles and link it to your HTML file using <link rel="stylesheet" href="style.css">.
 Customize Your Website:
 
-Add sections for About Me, Projects, Contact, etc., using HTML tags (e.g., <div>, <h1>, <p>, <a>).
+Add sections for About Me, Projects, Contact, etc., using HTML tags (eg <div>, <h1>, <p>, <a>).
 
 Style your website using CSS to make it visually appealing and user-friendly.
 Commit and Push Changes:
