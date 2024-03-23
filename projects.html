@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        /* Resetting default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('coding-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .project {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .project h3 {
+            margin-bottom: 0.5rem;
+        }
+        .project p {
+            margin-bottom: 0.5rem;
+        }
+        .project a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body background="linkin.jpg">
+    <div class="container">
+        <h1><font color="black" My Projects</h1>
+        <div class="projects">
+            <div class="project">
+                <h3>SNAKE GAME USING C</h3>
+                <h5><p>A snake game in C uses a grid-based board where a snake moves, eats food, and grows. 
+                    It's controlled by user input or algorithms. The game loops, updating snake position and checking for collisions.
+                     Points increase with food consumption. 
+                    Colliding with the snake's body or edges ends the game. It's a fun, logic-rich programming challenge.</p></h5>
+                <a href="https://github.com/Kaustubhpaul18/Portfolio/blob/deb2b4a6a1f447cbd9f9e0401b6fef71ea112ede/Snake%20Game%20using%20C">Learn more</a>
+            </div>
+            <div class="project">
+                <h3>Cloud Study Jams</h3>
+                <h5><p>Cloud Study Jams are interactive learning experiences organized by Google Cloud to 
+                    help participants learn about Google Cloud Platform (GCP) technologies. These study 
+                    jams are typically conducted in collaboration with Google Developer Groups (GDGs) and other
+                     community organizations.
+                    During Cloud Study Jams, participants get hands-on experience with various GCP services and tools through guided exercises and labs. These sessions cover topics such as cloud computing, data analytics, machine learning, infrastructure management, and more.</p></h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
