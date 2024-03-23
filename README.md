@@ -25,6 +25,7 @@ Create a style.css file for your CSS styles and link it to your HTML file using 
 Customize Your Website:
 
 Add sections for About Me, Projects, Contact, etc., using HTML tags (e.g., <div>, <h1>, <p>, <a>).
+
 Style your website using CSS to make it visually appealing and user-friendly.
 Commit and Push Changes:
 
