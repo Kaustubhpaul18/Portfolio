@@ -11,7 +11,7 @@ This is a documentation guide for setting up and customizing a portfolio website
 Basic knowledge of HTML, CSS
 A GitHub account
 
-# Steps:
+ Steps:
 
 Create a New Repository:
 
